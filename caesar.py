@@ -19,13 +19,6 @@ def main():
     print(Caesar('abcdefg', 3))
     print(Caesar('defghij', -3))
 
-speed = 45
-time = 8
-for i in range (1,time+1):
-    distance = speed * i
-    print(str(i),str(distance))
-
-
 
 if __name__ == "__main__":
     main()
